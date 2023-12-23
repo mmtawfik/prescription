@@ -8,18 +8,8 @@ from pathlib import Path
 import os
 from fpdf import FPDF
 
-
 def create_prescription(patient_name, date, day, birthday, prescription):
-    # Specify the path to the image file
-    image_url = 'https://raw.githubusercontent.com/mmtawfik/prescription/main/prescription.png'
-
-    # Download the image using the requests library
-    response = requests.get(image_url)
-
-    # Open the image using PIL
-    image = Image.open(BytesIO(response.content))
-
-    image_path = response
+    image_path = 'prescription.png' # Replace this with the actual path to your prescription.png file
     image = Image.open(image_path)
     image = image.convert("RGB") # Convert image to RGB mode
     draw = ImageDraw.Draw(image)
