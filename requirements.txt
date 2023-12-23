@@ -1,5 +1,5 @@
 numpy
-opencv-python-headless
+opencv-python==4.4.0.44
 easyocr==1.4.1
 matplotlib==3.4.3
 matplotlib-inline==0.1.3
