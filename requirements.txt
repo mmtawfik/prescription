@@ -4,5 +4,3 @@ pillow==9.1.1
 numpy==1.22.3
 fpdf
 FPDF
-requests
-prescription.png
