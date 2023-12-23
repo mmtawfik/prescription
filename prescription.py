@@ -15,6 +15,7 @@ def create_prescription(patient_name, date, day, birthday, prescription):
     draw = ImageDraw.Draw(image)
     font = ImageFont.truetype("arial.ttf", 28)
 
+
     draw.text((220, 395), patient_name, (0, 0, 0), font=font)
     draw.text((745, 395), date, (0, 0, 0), font=font)
     draw.text((300, 455), birthday, (0, 0, 0), font=font)
