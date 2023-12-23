@@ -1,4 +1,4 @@
-cv2
+fpdf
 numpy
 opencv-python 4.8.1.78
 easyocr==1.4.1
@@ -15,7 +15,7 @@ streamlit==1.0.0
 torch==1.9.1
 torchvision==0.10.1
 tqdm==4.62.3
-fpdf
+
 contents of packages.txt:
 freeglut3-dev
 libgtk2.0-dev
