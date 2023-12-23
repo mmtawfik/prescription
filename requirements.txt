@@ -1,4 +1,4 @@
-pip install opencv-python
+cv2
 numpy
 opencv-python 4.8.1.78
 easyocr==1.4.1
