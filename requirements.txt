@@ -1,16 +1,28 @@
-streamlit
-pandas
-plotly
+Traceback (most recent call last):
+  File "detect.py", line 14, in <module>
+ModuleNotFoundError: No module named 'cv2'
+
+Contents of requirements.txt:
 numpy
-kaleido
-pandas-profiling
-streamlit-pandas-profiling
-pillow
-cv2
-PIL  
-io
-datetime
-tempfile
-pathlib 
-os
-fpdf
+opencv-python
+easyocr==1.4.1
+matplotlib==3.4.3
+matplotlib-inline==0.1.3
+pandas==1.3.4
+pandocfilters==1.5.0
+Pillow==8.2.0
+requests==2.26.0
+scikit-image==0.18.3
+scipy==1.7.1
+seaborn==0.11.2
+streamlit==1.0.0
+torch==1.9.1
+torchvision==0.10.1
+tqdm==4.62.3
+
+contents of packages.txt:
+freeglut3-dev
+libgtk2.0-dev
+libgl1-mesa-glx
+
+Kindly assist me in resolving the issue so that this error does not occur. Also, I have followed through other similar issues.
