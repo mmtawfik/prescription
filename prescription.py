@@ -13,8 +13,11 @@ def create_prescription(patient_name, date, day, birthday, prescription):
     image = Image.open(image_path)
     image = image.convert("RGB") # Convert image to RGB mode
     draw = ImageDraw.Draw(image)
-    font = ImageFont.truetype("arial.ttf", 28)
-
+    try:
+        font = ImageFont.truetype("Arial.ttf", 28)
+    except OSError:
+        st.error("The font file 'arial.ttf' is not found. Please ensure it is in the same directory as the script.")
+        font = ImageFont.load_default()
 
     draw.text((220, 395), patient_name, (0, 0, 0), font=font)
     draw.text((745, 395), date, (0, 0, 0), font=font)
