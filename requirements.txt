@@ -1,0 +1,16 @@
+streamlit
+pandas
+plotly
+numpy
+kaleido
+pandas-profiling
+streamlit-pandas-profiling
+pillow
+cv2
+PIL  
+io
+datetime
+tempfile
+pathlib 
+os
+fpdf
