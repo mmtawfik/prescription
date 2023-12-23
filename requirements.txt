@@ -1,10 +1,5 @@
-Traceback (most recent call last):
-  File "detect.py", line 14, in <module>
-ModuleNotFoundError: No module named 'cv2'
-
-Contents of requirements.txt:
 numpy
-opencv-python
+opencv-python-headless
 easyocr==1.4.1
 matplotlib==3.4.3
 matplotlib-inline==0.1.3
