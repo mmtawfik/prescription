@@ -6,7 +6,9 @@ import datetime
 import tempfile
 from pathlib import Path
 import os
-import fpdf
+from fpdf import FPDF
+
+
 def create_prescription(patient_name, date, day, birthday, prescription):
     image_path = 'prescription.png' # Replace this with the actual path to your prescription.png file
     image = Image.open(image_path)
