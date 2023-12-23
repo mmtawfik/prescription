@@ -1,4 +1,4 @@
-fpdf
+fpdf==1.86 
 numpy
 opencv-python 4.8.1.78
 easyocr==1.4.1
